@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import Gallery from './components/Gallery';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
-//import Resume from "./components/Resume";
+import Resume from "./components/Resume";
 
 function App() {
   // const [categories] = useState([
