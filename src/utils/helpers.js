@@ -1,3 +1,4 @@
+//This is the original code in module 20 project.
 export function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
