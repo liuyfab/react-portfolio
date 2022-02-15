@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from "./components/Resume";
 
-function App() {
+// function App() {
   // const [categories] = useState([
   //   {
   //     name: 'commercial',
@@ -20,28 +20,30 @@ function App() {
 
   // const [contactSelected, setContactSelected] = useState(false);
 
-  return (
-    <div>
-      {/* <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main> */}
-      <h1>Portfolio</h1>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       {/* <Nav
+//         categories={categories}
+//         setCurrentCategory={setCurrentCategory}
+//         currentCategory={currentCategory}
+//         contactSelected={contactSelected}
+//         setContactSelected={setContactSelected}
+//       ></Nav>
+//       <main>
+//         {!contactSelected ? (
+//           <>
+//             <Gallery currentCategory={currentCategory}></Gallery>
+//             <About></About>
+//           </>
+//         ) : (
+//           <ContactForm></ContactForm>
+//         )}
+//       </main> */}
+//       <h1>Portfolio</h1>
+//     </div>
+//   );
+// }
+
+const App = () => <Portfolio />;
 
 export default App;
