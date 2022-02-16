@@ -14,7 +14,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-::root {
+:root {
   /* five color pallette */
   --color1: #d1e8e2;
   --color2: #ffcb9a;
@@ -38,7 +38,7 @@ h1 {
   padding: var(--spacing-two);
   font-size: 48px;
 }
-/*End general styling*/
+
 
 
 /* Styling for the header and navigation menu */
@@ -57,7 +57,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  align-items: center;
+  align-items: baseline;
 }
 
 .list-item {
@@ -68,7 +68,7 @@ h1 {
 .navActive {
   color: var(--tertiary);
 }
-/* End header and navigation menu styling */
+
 
 
 /* Styling for the footer */
@@ -95,7 +95,7 @@ h1 {
   padding: 0 25px 0 25px;
   font-size: 20px;
 }
-/* End footer styling */
+
 
 
 /* General styling for the content portion of the page */
@@ -113,7 +113,6 @@ section{
   padding: var(--spacing-two);
   color: black;
 }
-/* End general content section styling */
 
 
 /* Styling pertaining to the projects page */
@@ -184,7 +183,7 @@ section{
 }
 
 
-/* End styling pertaining to projects page */
+
 
 
 /* Styling for the Contact form page */
@@ -224,7 +223,7 @@ button {
   margin: 0 1px;
   background-color: var(--tertiary);
 }
-/* End styling for Contact form */
+
 
 
 /* Styling for the Resume page */
