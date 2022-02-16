@@ -14,17 +14,14 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-:root {
-  --light: #f0ead2;
-  --primary: #dde5b6;
-  --secondary: #adc178;
-  --tertiary: #a98467;
-  --dark: #6c584c;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-}
+::root {
+  /* five color pallette */
+  --color1: #d1e8e2;
+  --color2: #ffcb9a;
+  --color3: #d9b08c;
+  --color4: rgb(17, 100, 102);
+  --color5: rgb(44, 53, 49);
+
 
 a {
   text-decoration: none;
@@ -175,24 +172,18 @@ section{
   background-repeat: no-repeat;
 }
 
-.prestige-worldwide {
-  background-image: url("./assets/images/stagelights.jpg");
+.APP {
+  background-image: url("./assets/images/weather-gifinder.png");
   background-position: 60% 30%;
   background-repeat: no-repeat;
 }
 
 .fo-char-mgr {
-  background-image: url("./assets/images/ruins.jpg");
+  background-image: url("./assets/images/project-4.jpg");
   background-position: 50% 0%;
 }
 
-.network {
-  background-image: url('./assets/images/network.jpg');
-}
 
-.blog {
-  background-image: url('./assets/images/terminal.jpg');
-}
 /* End styling pertaining to projects page */
 
 

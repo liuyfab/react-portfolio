@@ -2,7 +2,7 @@ import React from 'react';
 
 // Props are passed through our functional component.
 const Nav = (props) => {
-    
+    console.log("Nav props", props)
     const pages = ['About', 'Projects', 'Contact', 'Resume'];
 
     return (
@@ -13,7 +13,7 @@ const Nav = (props) => {
                     <a href={'#' + page.toLowerCase()}
                         //whenever an item in the nav bar is clicked on, the current page is set through the setCurrentPage which
                         //was passed through the props.
-                        onClick={() => props.setCurrentPage(page)}
+                        onClick={() => console.log("nav bar clicked" , page) } //props.setCurrentPage(page)
                         className={props.currentPage === page ? 'navActive' : 'nav-link'}>
                         <h2>{page}</h2>
                     </a>

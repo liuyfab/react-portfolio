@@ -1,6 +1,8 @@
 import React from "react";
 
-const Footer = () => (
+//const Footer = () => (
+  function Footer(){
+    return (
     <article className="flexbox-container footer">
     <div>
       <ul className="horizontal-list">
@@ -11,6 +13,7 @@ const Footer = () => (
     </ul>
     </div>
   </article>
-);
+    ); 
+    }
 
 export default Footer;
