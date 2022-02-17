@@ -5,7 +5,7 @@ react challenge
 This project is a REACT.js portfolio of web-development projects written or modified by Yongfeng Liu.
 
 # Deployment link
-https://liuyfab.github.io/react-portfolio/
+ https://liuyfab.github.io/react-portfolio/
 
 # Table of Contents
 * [Deployment Link](#Deployment link)
