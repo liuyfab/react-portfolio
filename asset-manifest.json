@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.c3455a13.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c3455a13.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.3cfbc2ec.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.3cfbc2ec.js.map",
+    "static/js/2.47aa34bf.chunk.js": "/react-portfolio/static/js/2.47aa34bf.chunk.js",
+    "static/js/2.47aa34bf.chunk.js.map": "/react-portfolio/static/js/2.47aa34bf.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/js/2.47aa34bf.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.47aa34bf.chunk.js.LICENSE.txt",
+    "static/media/Yongfeng.f4f6ec90.jpg": "/react-portfolio/static/media/Yongfeng.f4f6ec90.jpg",
+    "static/media/Yongfeng_CV.2615c652.docx": "/react-portfolio/static/media/Yongfeng_CV.2615c652.docx"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cfbc2ec.js",
+    "static/js/2.47aa34bf.chunk.js",
+    "static/js/main.c3455a13.chunk.js"
+  ]
+}
