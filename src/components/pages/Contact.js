@@ -4,9 +4,9 @@ import { validateEmail } from '../../utils/helpers';
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  if (!errorMessage) {
-    console.log('Submit Form', formState);
-  }
+  // if (!errorMessage) {
+  //   console.log('Submit Form', formState);
+  // }
 };
 
 function ContactForm() {
